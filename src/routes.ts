@@ -1,9 +1,10 @@
 import {Home} from "./pages/home.tsx"
 import {Login} from "./pages/login.tsx"
+import { Route } from "./types/commonTypes.ts"
 
-export const routes = {
+export const routes: Route = {
     "home": {
-        route: "/",
+        route: "/home",
         component: Home
     },
     "login": {
