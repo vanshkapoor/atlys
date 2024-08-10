@@ -93,6 +93,12 @@ a:hover {
   transition: transform 0.5s ease-in-out;
 }
 
+@media screen and (max-width: 768px) {
+  .modal-overlay{
+    transform: translateY(-200vw);
+  }
+}
+
 .modal-show {
   transform: translateY(0) !important;
   animation: showModal 0.3s ease-out 0.4s forwards;
